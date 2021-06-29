@@ -17,7 +17,7 @@ class launcher{
 
     attach()
     {
-      this.launcher.bodyA.setPosition(body);
+      this.launcher.bodyA = body;
     }
 
     display(){
